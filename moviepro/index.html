@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<title>Cartoons Cloud</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css" >
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<link rel="icon" href="again.jpg" type="image/gif" sizes="16x16">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+
+
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="logo.png" style="width:45%;" class="w3-round"><br><br>
+    <h1><b>Cartoons Cloud</b></h1>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-play-circle w3-margin-right" style="font-size:25px;"></i>
+        HOLLYWOOD</a> 
+        <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-play-circle w3-margin-right" style="font-size:25px;"></i>
+            BOLLYWOOD</a><a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-play-circle w3-margin-right" style="font-size:25px;"></i>
+                CHINES</a><a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-play-circle w3-margin-right" style="font-size:25px;"></i>
+                    LOLLYWOOD</a>
+                </div>
+  <div class="w3-panel w3-large">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0" style="margin-top: 10px;">
+        <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+      </div>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="logo.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Cartoons Cloud</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-black">ALL</button>  
+       <button class="w3-button w3-white w3-hide-small"><i class="fa fa-play-circle" style="font-size:24px"></i>
+        Hollywood</button>   <button class="w3-button w3-white w3-hide-small"><i class="fa fa-play-circle" style="font-size:24px"></i>
+            Bollywood</button>   <button class="w3-button w3-white w3-hide-small"><i class="fa fa-play-circle" style="font-size:24px"></i>
+                Lollywood</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-play-circle" style="font-size:24px"></i>
+        Chines</button>
+    </div>
+    </div>
+  </header>
+  
+  <!--Adsens-->
+  
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      
+      <div class="flex flex-wrap -m-4 text-center">
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M8 17l4 4 4-4m-4-5v9"></path>
+              <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+            <p class="leading-relaxed">Downloads</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-gray-900">1.3K</h2>
+            <p class="leading-relaxed">Users</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+              <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-gray-900">74</h2>
+            <p class="leading-relaxed">Files</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+            <p class="leading-relaxed">Places</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+
+  <!-- First Photo Grid-->
+  
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+    
+       <a href="downloadmovies/spider_man.html"><img  src="downloadmovies/movies_image/cars.jpg" class="mx-auto d-block" style="width:50%"></a> 
+     
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+     <div class="embed-responsive embed-responsive-16by9">
+        <div class="container">
+            
+            <a href="downloadmovies/scobi.html"><img src="downloadmovies/movies_image/despicable_me_2.jpg" class="mx-auto d-block" style="width:50%"> 
+            </a></div>
+          
+
+     </div>
+      
+    </div>
+    <div class="w3-third w3-container">
+
+      <a href="downloadmovies/incridible.html"><img src="downloadmovies/movies_image/incrible.jpg" class="mx-auto d-block" style="width:50%"> 
+      </a>        <div class="w3-container w3-white">
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+    
+       <a href="downloadmovies/Norm_of_The_North.html"><img  src="downloadmovies/movies_image/Norm of the North.jpg" class="mx-auto d-block" style="width:50%"></a> 
+     
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+     <div class="embed-responsive embed-responsive-16by9">
+        <div class="container">
+            
+            <a href="downloadmovies/the_boss_baby.html"><img src="downloadmovies/movies_image/the boss baby.jpg" class="mx-auto d-block" style="width:50%"> 
+            </a></div>
+          
+
+     </div>
+      
+    </div>
+    <div class="w3-third w3-container">
+
+      <a href="downloadmovies/Despicable_Me.html"><img src="downloadmovies/movies_image/despicable_me.jpg" class="mx-auto d-block" style="width:50%"> 
+      </a>      
+        <div class="w3-container w3-white">
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="downloadmovies/Ice_Age_Collision_Course.html"><img src="downloadmovies/movies_image/ice age coll.jpg" class="mx-auto d-block" style="width:50%"> 
+        <div class="w3-container w3-white">
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="downloadmovies/spidermanhtml.html"><img src="downloadmovies/movies_image/spi.jpg" class="mx-auto d-block" style="width:50%"> 
+        <div class="w3-container w3-white">
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <a href="downloadmovies/big_hero.html"><img src="downloadmovies/movies_image/big hero.jpg" class="mx-auto d-block" style="width:50%"> 
+        <div class="w3-container w3-white">
+      </div>
+    </div>
+  </div>
+  
+  <!--Adsens-->
+  
+  <!--Adsens-->
+  
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      
+      <div class="flex flex-wrap -m-4 text-center">
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M8 17l4 4 4-4m-4-5v9"></path>
+              <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+            <p class="leading-relaxed">Downloads</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-gray-900">1.3K</h2>
+            <p class="leading-relaxed">Users</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+              <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-gray-900">74</h2>
+            <p class="leading-relaxed">Files</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+            <p class="leading-relaxed">Places</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+ 
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    <hr>
+    
+    
+ 
+    <footer class="text-gray-600 body-font" style="background-color: white;">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+    <img src="logo.png" style="width:45%;" class="w3-round">
+            
+            <span class="ml-3 text-xl">Cartoons Cloud</span>
+          </a>
+          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 Cartoons cloud —
+            <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">kashimehar657@gmail.com</a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a class="text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </footer>
